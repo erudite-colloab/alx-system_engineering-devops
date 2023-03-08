@@ -1,7 +1,4 @@
-import os
+#!/bin/bash
 
-cwd = os.getcwd()  # get the current working directory
-abs_path = os.path.abspath(cwd)  # get the absolute path of the current working directory
-
-print(abs_path)  # print the absolute path
+echo "The absolute path name of the current working directory is: $(pwd)"
 
